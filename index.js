@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 
 app.get('/', function(req, res){
     const { NAME } = process.env;
-    res.send(`Hello Galaxy! This is not ${NAME}`);
+    res.send(`Hello mama! This is not ${NAME}`);
 });
 
 app.post('/', function(req, res){
